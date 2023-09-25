@@ -1,0 +1,30 @@
+/*
+    메인 색상
+    040D12 rgb(4, 13, 18)
+    183D3D rgb(24, 61, 61)
+    5C8374 rgb(92, 131, 116)
+    93B1A6 rgb(147, 177, 166)
+*/
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: ns-eb;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.st1 {
+  background-color: #040d12;
+}
+
+.st2 {
+  background-color: #183d3d;
+}
+
+.st3 {
+  background-color: #5c8374;
+}

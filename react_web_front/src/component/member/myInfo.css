@@ -1,0 +1,44 @@
+/*
+    메인 색상
+    040D12 rgb(4, 13, 18)
+    183D3D rgb(24, 61, 61)
+    5C8374 rgb(92, 131, 116)
+    93B1A6 rgb(147, 177, 166)
+*/
+
+.my-info-tbl {
+  width: 100%;
+  border-spacing: 0;
+  border-top: 2px solid #040d12;
+  border-bottom: 2px solid #040d12;
+  padding: 10px;
+}
+
+.my-info-tbl > tbody > tr > td:first-child {
+  width: 30%;
+}
+
+.my-info-tbl > tbody > tr > td {
+  padding: 20px 10px;
+}
+
+#member-phone {
+  padding: 0;
+}
+
+#member-phone > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#member-phone > div > input {
+  width: 60%;
+}
+
+#member-phone > div > button {
+  width: 30%;
+}
+
+.delete-btn-box {
+  margin-top: 50px;
+}

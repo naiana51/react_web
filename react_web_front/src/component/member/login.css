@@ -1,0 +1,52 @@
+/*
+    메인 색상
+    040D12 rgb(4, 13, 18)
+    183D3D rgb(24, 61, 61)
+    5C8374 rgb(92, 131, 116)
+    93B1A6 rgb(147, 177, 166)
+*/
+
+.login-wrap {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.login-title {
+  text-align: center;
+  color: #040d12;
+  font-family: ns-black;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.input-wrap > label {
+  display: block;
+  padding: 10px 0px;
+  color: #040d12;
+  font-family: ns-b;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.search-box > a {
+  font-size: 0.9em;
+  height: 20px;
+  line-height: 20px;
+}
+
+.search-box > a:hover {
+  text-decoration: underline;
+}
+
+.search-box > span {
+  font-size: 22px;
+  transform: rotate(90deg);
+}
+
+.login-btn-box {
+  margin: 10px 0px;
+}

@@ -1,0 +1,73 @@
+/*
+    메인 색상
+    040D12 rgb(4, 13, 18)
+    183D3D rgb(24, 61, 61)
+    5C8374 rgb(92, 131, 116)
+    93B1A6 rgb(147, 177, 166)
+*/
+
+.mypage-wrap {
+  width: 1200px;
+  margin: 30px auto;
+}
+
+.my-title {
+  color: #040d12;
+  font-size: 24px;
+  font-family: ns-b;
+  padding: 10px 0px;
+  border-bottom: 2px solid #040d12;
+}
+
+.my-side {
+  width: 200px;
+}
+
+.my-side > ul {
+  list-style-type: none;
+  box-sizing: border-box;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.my-side > ul > li > a {
+  display: block;
+  padding: 10px;
+  color: #040d12;
+  font-family: ns-b;
+  position: relative;
+}
+.my-side > ul > li > a > span {
+  position: absolute;
+  right: 0;
+}
+
+.my-side > ul > li > a.active-side {
+  background-color: #040d12;
+  color: #fff;
+}
+
+.my-side > ul > li > a.active-side > span {
+  color: #fff;
+}
+
+.my-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.current-content {
+  width: 900px;
+}
+
+.my-content-wrap {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.my-content-title {
+  padding: 30px 0px;
+  color: #183d3d;
+  font-family: ns-b;
+  font-size: 20px;
+}

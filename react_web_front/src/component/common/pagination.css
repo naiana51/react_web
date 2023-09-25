@@ -1,0 +1,28 @@
+/*
+    메인 색상
+    040D12 rgb(4, 13, 18)
+    183D3D rgb(24, 61, 61)
+    5C8374 rgb(92, 131, 116)
+    93B1A6 rgb(147, 177, 166)
+*/
+
+.paging-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paging-wrap > .page-item {
+  min-width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.page-item.active-page {
+  background-color: #040d12;
+  color: #fff;
+}

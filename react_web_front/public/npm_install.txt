@@ -1,2 +1,6 @@
 npm install react-router-dom
 npm install sweetalert2
+npm install axios
+npm install react-quill
+npm install quill-image-resize-module-react
+npm install swiper@6.8.4

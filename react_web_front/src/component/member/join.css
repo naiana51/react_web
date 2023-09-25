@@ -1,0 +1,61 @@
+/*
+    메인 색상
+    040D12 rgb(4, 13, 18)
+    183D3D rgb(24, 61, 61)
+    5C8374 rgb(92, 131, 116)
+    93B1A6 rgb(147, 177, 166)
+*/
+
+.join-wrap {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.join-title {
+  text-align: center;
+  font-family: ns-eb;
+  font-size: 30px;
+  color: #040d12;
+  padding: 30px;
+}
+
+.join-input-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.join-input-wrap > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join-input-wrap > div > .label {
+  width: 30%;
+  /* text-align: center; */
+}
+
+.join-input-wrap > div > .label > label {
+  font-size: 1.1em;
+  font-family: ns-b;
+  color: #040d12;
+}
+
+.join-input-wrap > div > .input {
+  width: 70%;
+}
+
+.check-msg {
+  font-size: 0.8em;
+  width: 70%;
+  align-self: flex-end;
+  color: #f44336;
+}
+
+.join-btn-box {
+  padding: 20px 0px;
+}
